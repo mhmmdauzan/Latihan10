@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#99ccff"
+    android:layout_margin="10dp"
+    tools:context=".SubActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Input Your Name"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/btFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:text="Finish"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
